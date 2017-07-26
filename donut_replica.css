@@ -1,3 +1,23 @@
 .container {
 	border: 2px solid red;
 }
+
+.spacex2 {
+	height: 2em;
+	border: 2px solid green;
+
+}
+
+.spacex5 {
+	height: 5em;
+	border: 2px solid green;
+}
+
+.spacex10 {
+	height: 10em;
+	border: 2px solid green;
+}
+
+div {
+	border: 3px solid blue;
+}
