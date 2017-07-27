@@ -1,22 +1,41 @@
-.container {
-	
+body {
+	font-family: Lato;
 }
 
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+.container {
+	background-color: rgb(224, 224, 224);
+	border: 1px solid black;
+	
+}
+.example {
+	border: 1px solid black;
+	border-radius: 8px;
+	height: 420px;
+	max-width: 800px;
+	margin: 0 auto;
+}
 .spacex2 {
 	height: 2em;
-	background-color: green;
+	
 }
 
 .spacex5 {
 	height: 5em;
-	background-color: green;
 }
 
 .spacex10 {
 	height: 10em;
-	background-color: green;
+	
 }
 
 div {
-	border: 1px solid black;
+	
 }
