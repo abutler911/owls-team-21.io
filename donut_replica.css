@@ -37,5 +37,18 @@ h2 {
 }
 
 div {
-	
+	border: 1px solid black;
+}
+
+.testimonial-big-box {
+	height: 500px;
+	background-color: gray;
+}
+
+.logos {
+	margin: 20px;
+}
+
+#customers {
+	text-align: center;
 }
