@@ -23,8 +23,6 @@ h2 {
 	background: #c0c0aa;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	
-	
 }
 
 .navbar {
@@ -32,9 +30,11 @@ h2 {
 	background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 .pressable {
 	margin-top: 5px;
 }
+
 .example {
 	border: 1px solid black;
 	border-radius: 8px;
@@ -42,9 +42,9 @@ h2 {
 	max-width: 800px;
 	margin: 0 auto;
 }
+
 .spacex2 {
 	height: 2em;
-	
 }
 
 .spacex5 {
@@ -53,16 +53,17 @@ h2 {
 
 .spacex10 {
 	height: 10em;
-	
 }
 
 .add-to-slack {
 	margin-top: 30px;
 }
+
 .example .channels .user-row {
 	padding-top: 10px;
 	padding-left: 20px;
 }
+
 .example .channels .group-row .count {
 	text-align: center;
 	display: inline-block;
@@ -87,7 +88,7 @@ h2 {
 }
 
 .logos {
-	margin: 20px;
+	margin: 40px;
 }
 
 #customers {
