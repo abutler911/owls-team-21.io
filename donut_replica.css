@@ -190,16 +190,48 @@ h2 {
 	display: inline-block;
 }
 
-.testimonial-big-box {
-	height: 500px;
-	background-color: gray;
-}
 
-.logos {
-	margin: 40px;
+.logo {
+	margin-left: 40px;
+	width: 175px;
+	height: 70px;
 }
 
 #customers {
 	text-align: center;
 }
 
+.content.donut.bordered {
+	width: 408px;
+	height: 200px;
+	padding: 24px;
+	background-color: white;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: rgb(234, 234, 234);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: rgb(234, 234, 234);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: rgb(234, 234, 234);
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	box-shadow: rgba(130, 130, 235, 0.1);
+	box-sizing: border-box;
+	color: rgb(51, 51, 51);
+	display: flex;
+	font-family: "HK Grotesk Pro", sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 34.2857px;
+	text-align: left;
+	text-rendering: auto;
+	text-size-adjust: 100%;
+
+}
