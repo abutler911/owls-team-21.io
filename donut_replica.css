@@ -1,10 +1,9 @@
 body {
 	font-family: Lato;
-	background: #c0c0aa;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+	background: #36D1DC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: white;
 }
 
 h1 {
@@ -20,15 +19,22 @@ h2 {
 	color: white;
 }
 .container {
-	background: #c0c0aa;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #36D1DC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .navbar {
-	background: #c0c0aa;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-color: transparent;
+	border: transparent;
+	color: white;
+	background: #36D1DC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nav .navbar-nav .navbar-right {
+	color: white;
 }
 
 .pressable {
@@ -42,7 +48,104 @@ h2 {
 	max-width: 800px;
 	margin: 0 auto;
 }
+.example .channels .header {
+	font-size: 14px;
+	color: #666666;
+	padding: 20px;
+}
+.example .channels .user-row .activity {
+	height: 12px;
+	width: 12px;
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: 10px;
+}
 
+.example .channels .channel {
+	padding-bottom: 20px;
+	font-size: 18px;
+	padding-left: 20px;
+	color: #666666;
+}
+
+.example .channels .user-row {
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.example .channels .user-row .user {
+	font-size: 18px;
+	display: inline-block;
+}
+
+.example .channels .group-row .group {
+	font-size: 18px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.example .channels .group-row .count {
+	text-align: center;
+	display: inline-block;
+	color: #58BAB4;
+	font-size: 10px;
+	background-color: white;
+	border-radius: 2px;
+	margin-right: 10px;
+	width: 12px;
+	line-height: 14px;
+	float: left;
+	margin-top: 6px;
+}
+
+.example .messages .avatar.donut {
+	border-radius: 50%;
+	width: 64px;
+	height: 64px;
+	display: inline-block;
+	float: left;
+	margin-left: 20px; 
+}
+
+.example .message .avatar.purple {
+	background-color: #855BDA;
+}
+.example .message .avatar.green {
+	background-color: #58BAB4;
+	margin-top: 15px;
+}
+.example .message .avatar {
+	width: 64px;
+	height: 64px;
+	border-radius: 8px;
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+}
+
+.highlight {
+	display: inline;
+	color: #58BAB4;
+}
+
+.example .message .text.offset {
+	padding-top: 10px;
+
+}
+.example .message .message-copy .username {
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 20px;
+	display: inline;
+	color: black;
+}
+.example .message .message-copy .text {
+	display: inline-block;
+	font-size: 18px;
+	line-height: 1.4;
+	margin-left: 20px;
+
+}
 .spacex2 {
 	height: 2em;
 }
@@ -59,24 +162,8 @@ h2 {
 	margin-top: 30px;
 }
 
-.example .channels .user-row {
-	padding-top: 10px;
-	padding-left: 20px;
-}
 
-.example .channels .group-row .count {
-	text-align: center;
-	display: inline-block;
-	color: #58BAB4;
-	font-size: 10px;
-	background-color: white;
-	border-radius: 2px;
-	margin-right: 10px;
-	width: 12px;
-	line-height: 14px;
-	float: left;
-	margin-top: 6px;
-}
+
 
 .message-copy {
 	display: inline-block;
