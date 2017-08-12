@@ -41,8 +41,12 @@ h2 {
 	margin-top: 5px;
 }
 
+.separator {
+	height: 1px;
+	background-color: #EAEAF0;
+}
 .example {
-	border: 1px solid black;
+	background-color: #dfd0bf;
 	border-radius: 8px;
 	height: 420px;
 	max-width: 800px;
@@ -98,7 +102,7 @@ h2 {
 	margin-top: 6px;
 }
 
-.example .messages .avatar.donut {
+.example .messages .avatar.donut.col {
 	border-radius: 50%;
 	width: 64px;
 	height: 64px;
@@ -107,13 +111,21 @@ h2 {
 	margin-left: 20px; 
 }
 
+.bold {
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+
 .example .message .avatar.purple {
 	background-color: #855BDA;
 }
+
 .example .message .avatar.green {
 	background-color: #58BAB4;
 	margin-top: 15px;
 }
+
 .example .message .avatar {
 	width: 64px;
 	height: 64px;
@@ -128,17 +140,28 @@ h2 {
 	color: #58BAB4;
 }
 
-.example .message .text.offset {
+.message .message-copy .text-offset {
 	padding-top: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	font-size: 18px;
+	font-style: normal;
+	text-align: left;
+	color: black;
 
 }
-.example .message .message-copy .username {
+.message .message-copy .username {
 	font-weight: bold;
+	font-family: 'HK Grotesk Pro', sans-serif;
 	font-size: 18px;
+	font-style: normal;
 	margin-left: 20px;
-	display: inline;
-	color: black;
+	display: inline-block;
+	color: #333333;
+	box-sizing: border-box;
+	float: left;
 }
+
 .example .message .message-copy .text {
 	display: inline-block;
 	font-size: 18px;
@@ -146,6 +169,7 @@ h2 {
 	margin-left: 20px;
 
 }
+
 .spacex2 {
 	height: 2em;
 }
@@ -161,9 +185,6 @@ h2 {
 .add-to-slack {
 	margin-top: 30px;
 }
-
-
-
 
 .message-copy {
 	display: inline-block;
@@ -181,3 +202,4 @@ h2 {
 #customers {
 	text-align: center;
 }
+
