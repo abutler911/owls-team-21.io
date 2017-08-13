@@ -2,7 +2,9 @@
 <html>
 <head>
 	<title>Donut Splash Page</title>
-	
+	<script src="https://use.fontawesome.com/946e0499fb.js"></script>
+	<link href="https://use.fontawesome.com/946e0499fb.css" media="all" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
 	<link rel="stylesheet" type="text/css" href="donut_replica.css">
@@ -24,10 +26,15 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Pairing <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
+        
+        
       </ul>
       <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Pairing</a></li>
+        <li><a href="#">Customers</a></li>
+        <li><a href="#">Onboarding</a></li>
+        <li><a href="#">Plans</a></li>
+        <li><a href="#">Support</a></li>
         <li><a href="#">Jobs</a></li>
         	<img alt="Sign in with Slack" class="pressable" style="border-radius: 5px;" srcset="https://d2b807tps66q33.cloudfront.net/images/landing/sign_in_with_slack.v0.png 1x, https://d2b807tps66q33.cloudfront.net/images/landing/sign_in_with_slack@2x.v0.png 2x" src="https://d2b807tps66q33.cloudfront.net/images/landing/sign_in_with_slack.v0.png">
         </li>
@@ -56,28 +63,53 @@
 			<div class = "spacex5"></div>
 			<div class = "spacex5"></div>
 		<div class = "example">
-			<div class = "row">
-				<div class = "col-md-3 channels">
+			<div class = "row row-tight">
+				<div class = "col-md-3 hidden-xs hidden-sm channels">
 					<div class = "header bold">CHANNELS</div>
 						<div class = "channel">#general</div>
 						<div class = "channel">#coffee_buddies</div>
-
+						<div class = "user-row">
+							<div class = "activity"></div>
+							<div class = "user">donut</div>
+						</div>
+						<div class = "user-row">
+							<div class = "activity"></div>
+							<div class = "user">jack</div>
+						</div>
+						<div class = "user-row-last">
+							<div class = "activity"></div>
+							<div class = "user">susie</div>
+						</div>
+						<div class = "group-row">
+							<div class = "count">3</div>
+							<div class = "group">donut, jack, susie</div>
+						</div>
 				</div>
 
 				<div class = "col-md-9 col-xs-12 messages">
 					<div class = "spacex2"></div>
-					<div class = "channel">donut, jack, susie</div>
-					<img alt="Donut" class="avatar donut col" srcset="https://d2b807tps66q33.cloudfront.net/images/donut_face_64.v0.png 1x, https://d2b807tps66q33.cloudfront.net/images/donut_face_64@2x.v0.png 2x" src="https://d2b807tps66q33.cloudfront.net/images/donut_face_64.v0.png">
-					
+					<div class = "channel bold">donut, jack, susie</div>
+					<div class = "spacex2"></div>
+					<div class = "separator"></div>
+					<div class = "spacex2"></div>
+					<div class = "message row row-tight">	
+						<img alt="Donut" class="avatar donut col" srcset="https://d2b807tps66q33.cloudfront.net/images/donut_face_64.v0.png 1x, https://d2b807tps66q33.cloudfront.net/images/donut_face_64@2x.v0.png 2x" src="https://d2b807tps66q33.cloudfront.net/images/donut_face_64.v0.png">
+						<div class = "message-copy">
+							<div class = "username">donut</div>
+							<div class = "spacex4"></div>
+							<div class = "text">☀️ Hello! ☀️</div>
+							<div class = "text-offset">I'm here to help you get to know your teammates by pairing everyone from <span> #coffee_buddies</span> every week.
+							<div class="text offset">Why don’t you two pick a time to meet for ☕️, 🍔 or 🍩?</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<div class = "main page">
-		<div class = "spacex10"></div>
-		<div class = "spacex10"></div>
-		<div class = "spacex10"></div>
+		<div class = "spacex5"></div>
+		
 		<div class = "section">
 			<div class = "container" id = "customers">
 				<div class = "row">
@@ -86,25 +118,25 @@
 			<div class = "spacex10"></div>
 				<div class = "row">
 					<div class = "col-xs-4 col-sm-3 col centered logos">
-						<img src="http://via.placeholder.com/300x100">
+						<img alt="Meetup" class="logo meetup" srcset="https://d2b807tps66q33.cloudfront.net/images/logos/meetup.v0.png 1x, https://d2b807tps66q33.cloudfront.net/images/logos/meetup@2x.v0.png 2x" src="https://d2b807tps66q33.cloudfront.net/images/logos/meetup.v0.png">
 					</div>
 					<div class = "col-xs-4 col-sm-3 col centered logos">
-						<img src="http://via.placeholder.com/300x100">
+						<img alt="Blue Apron" class="logo blueapron" srcset="https://d2b807tps66q33.cloudfront.net/images/logos/blueapron.v0.png 1x, https://d2b807tps66q33.cloudfront.net/images/logos/blueapron@2x.v0.png 2x" src="https://d2b807tps66q33.cloudfront.net/images/logos/blueapron.v0.png">
 					</div>
 					<div class = "col-xs-4 col-sm-3 col centered logos">
-						<img src="http://via.placeholder.com/300x100">
+						<img alt="IBM" class="logo ibm" srcset="https://d2b807tps66q33.cloudfront.net/images/logos/ibm.v1.png 1x, https://d2b807tps66q33.cloudfront.net/images/logos/ibm@2x.v1.png 2x" src="https://d2b807tps66q33.cloudfront.net/images/logos/ibm.v1.png">
 					</div>
 				</div>
 			<div class = "spacex5"></div>
 				<div class = "row">
 					<div class = "col-xs-4 col-sm-3 col centered logos">
-						<img src="http://via.placeholder.com/300x100">
+						<img alt="Managed by Q" class="logo managedbyq" srcset="https://d2b807tps66q33.cloudfront.net/images/logos/managedbyq.v0.png 1x, https://d2b807tps66q33.cloudfront.net/images/logos/managedbyq@2x.v0.png 2x" src="https://d2b807tps66q33.cloudfront.net/images/logos/managedbyq.v0.png">
 					</div>
 					<div class = "col-xs-4 col-sm-3 col centered logos">
-						<img src="http://via.placeholder.com/300x100">
+						<img alt="Culture Amp" class="logo cultureamp" srcset="https://d2b807tps66q33.cloudfront.net/images/logos/cultureamp.v0.png 1x, https://d2b807tps66q33.cloudfront.net/images/logos/cultureamp@2x.v0.png 2x" src="https://d2b807tps66q33.cloudfront.net/images/logos/cultureamp.v0.png">
 					</div>
 					<div class = "col-xs-4 col-sm-3 col centered logos">
-						<img src="http://via.placeholder.com/300x100">
+						<img alt="InVision" class="logo invision" srcset="https://d2b807tps66q33.cloudfront.net/images/logos/invision.v1.png 1x, https://d2b807tps66q33.cloudfront.net/images/logos/invision@2x.v1.png 2x" src="https://d2b807tps66q33.cloudfront.net/images/logos/invision.v1.png">
 						
 					</div>
 				</div>

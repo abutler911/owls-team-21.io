@@ -1,8 +1,8 @@
 body {
 	font-family: Lato;
-	background: #36D1DC;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #c0c0aa;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
 }
@@ -13,6 +13,7 @@ h1 {
 
 h2 {
 	font-size: 28px;
+	color: white;
 }
 
 .row-centered {
@@ -22,8 +23,6 @@ h2 {
 	background: #c0c0aa;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	border: 1px solid black;
-	
 }
 
 .navbar {
@@ -31,6 +30,11 @@ h2 {
 	background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.pressable {
+	margin-top: 5px;
+}
+
 .example {
 	border: 1px solid black;
 	border-radius: 8px;
@@ -38,9 +42,9 @@ h2 {
 	max-width: 800px;
 	margin: 0 auto;
 }
+
 .spacex2 {
 	height: 2em;
-	
 }
 
 .spacex5 {
@@ -49,11 +53,33 @@ h2 {
 
 .spacex10 {
 	height: 10em;
-	
 }
 
-div {
-	
+.add-to-slack {
+	margin-top: 30px;
+}
+
+.example .channels .user-row {
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.example .channels .group-row .count {
+	text-align: center;
+	display: inline-block;
+	color: #58BAB4;
+	font-size: 10px;
+	background-color: white;
+	border-radius: 2px;
+	margin-right: 10px;
+	width: 12px;
+	line-height: 14px;
+	float: left;
+	margin-top: 6px;
+}
+
+.message-copy {
+	display: inline-block;
 }
 
 .testimonial-big-box {
@@ -62,7 +88,7 @@ div {
 }
 
 .logos {
-	margin: 20px;
+	margin: 40px;
 }
 
 #customers {
