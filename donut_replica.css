@@ -286,3 +286,8 @@ p.explanation.left {
 	font-size: 18px;
 
 }
+
+div.col-md-4.col-xs-12.col-centered {
+	display: block;
+	float: left;
+}
