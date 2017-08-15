@@ -1,8 +1,8 @@
 body {
 	font-family: Lato;
-	background: #36D1DC;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #36D1DC;
+	background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC); 
+	background: linear-gradient(to right, #5B86E5, #36D1DC); 
 	color: white;
 }
 
@@ -18,10 +18,27 @@ h2 {
 .row-centered {
 	color: white;
 }
+
 .container {
-	background: #36D1DC;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/*background: #36D1DC; 
+	background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);
+	background: linear-gradient(to right, #5B86E5, #36D1DC);*/
+}
+
+.main.splash {
+	background-color: white;
+	
+}
+
+#customers h1 {
+	color: black;
+	text-align: center;
+	display: inline-block;
+	float: none;
+}
+
+.container #testimonials {
+	background-color: white;
 }
 
 .navbar {
@@ -52,11 +69,13 @@ h2 {
 	max-width: 800px;
 	margin: 0 auto;
 }
+
 .example .channels .header {
 	font-size: 14px;
 	color: #666666;
 	padding: 20px;
 }
+
 .example .channels .user-row .activity {
 	height: 12px;
 	width: 12px;
@@ -111,6 +130,10 @@ h2 {
 	margin-left: 20px; 
 }
 
+.avatar.donut.col {
+	display: inline;
+}
+
 .bold {
 	color: black;
 	font-size: 18px;
@@ -150,6 +173,7 @@ h2 {
 	color: black;
 
 }
+
 .message .message-copy .username {
 	font-weight: bold;
 	font-family: 'HK Grotesk Pro', sans-serif;
@@ -190,11 +214,11 @@ h2 {
 	display: inline-block;
 }
 
-
 .logo {
-	margin-left: 40px;
+	margin: 20px;
 	width: 175px;
 	height: 70px;
+	
 }
 
 #customers {
@@ -225,7 +249,7 @@ h2 {
 	box-sizing: border-box;
 	color: rgb(51, 51, 51);
 	display: flex;
-	font-family: "HK Grotesk Pro", sans-serif;
+	font-family: Lato, sans-serif;
 	font-size: 24px;
 	font-style: normal;
 	font-weight: normal;
@@ -234,4 +258,36 @@ h2 {
 	text-rendering: auto;
 	text-size-adjust: 100%;
 
+}
+
+.purple-red-gradient {
+	background: #7b4397;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1.section-header.alt {
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	display: block;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+div.quote-mark.right.inverse {
+	display: block;
+}
+
+p.explanation.left {
+	box-sizing: border-box;
+	display: block;
+	font-size: 18px;
+
+}
+
+div.col-md-4.col-xs-12.col-centered {
+	display: block;
+	float: left;
 }
